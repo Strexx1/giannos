@@ -1,11 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Write a description of class bigman here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+Delta Dragons Game */
 public class Game
 {
  public static void main(){
@@ -27,16 +23,26 @@ public class Game
      System.out.println("3-Prospathw na vgw apo to asanser");
      answer=myObj.nextInt();
      if(answer==1){
-         System.out.println("Milaei mono Java.Ti kaneis");
+         System.out.println("Milaei mono Java.Ti kaneis");         
+         System.out.println("1-Den milaw java giati einai ektrwma");
+         System.out.println("2-System out println Hello world");
+         answer=myObj.nextInt();
          if(answer==1){
-             System.out.println("Den milaw java giati einai ektrwma me dagkwnei kai ginomai zombie. TELOS PAIXNIDIOU");
+             System.out.println(" me dagkwnei kai ginomai zombie. TELOS PAIXNIDIOU");
          }
+         
+         //na diorthothei i epilogi 2
+          if(answer==2){
+             System.out.println(" ");
+         }
+
      }
      else if(answer==2){
          System.out.println("Se dagkwnei kai ginesai kai sy zombie. TELOS PAIXNIDIOU");
      }
       else if(answer==3){
          System.out.println("To asanser kollaei anamesa stous 2 orofous. Ginesai Zombie giati se dagkwnei o bobos. TELOS PAIXNIDIOU");
+       //naprostethoun epiloges kai ypo-periptoseis
         }
      }
      else if(answer==3){
